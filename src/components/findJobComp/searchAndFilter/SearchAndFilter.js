@@ -56,7 +56,7 @@ function SearchAndFilter() {
 
   useEffect(() => {
     dispatch(selectAct(selectedItems));
-  }, [selectedItems]);
+  }, [dispatch, selectedItems]);
 
   return (
     <div>
